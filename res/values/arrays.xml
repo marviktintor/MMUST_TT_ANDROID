@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="assessments">
+        <item>Assignments</item>
+        <item>C.A.T</item>
+        <item>End of Semester</item>
+    </string-array>
+    <string-array name="school_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="alert_time">
+        <item>Minutes</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="sync_interval">
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+    </string-array>
+    <string-array name="season">
+        <item>Admission season</item>
+        <item>Normal season</item>
+        <item>Start of semester season</item>
+        <item>Study season</item>
+        <item>Assignments season</item>
+        <item>C.A.T season</item>
+        <item>End of Semester Exam season</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <EditText
+        android:id="@+id/authenticate_editText_reg_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="Registration no."
+        android:inputType="textPersonName"
+        android:text="SIT/0050/12" >
+
+        <requestFocus />
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/authenticate_editText_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/authenticate_imageView_view_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"
+            android:src="@android:drawable/ic_menu_view" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/action_bar_icon_help"
+        android:drawablePadding="20dp"
+        android:text="By default, Your first password is usually the email that is registered with the school"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/authenticate_button_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Authenticate" />
+
+    <TextView
+        android:id="@+id/authenticate_textView_login_fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Could not log in, Please contact the admin"
+        android:textColor="#FF0000" />
+
+    <ProgressBar
+        android:id="@+id/authenticate_progressBar_authenticating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="20dp" />
+
+</LinearLayout>

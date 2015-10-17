@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="20dp" >
+
+        <ImageView
+            android:id="@+id/lecturers_ui_imageView_avator"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+          
+            android:padding="2dp"
+            android:src="@drawable/ic_launcher_browser" />
+
+        <TextView
+            android:id="@+id/lecturers_ui_textView_lec_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/lecturers_ui_imageView_avator"
+            android:drawableRight="@drawable/menu_moreoverflow_normal_holo_light"
+            android:text="Mr Kimanzi"
+            android:textSize="26sp" />
+    </RelativeLayout>
+
+</LinearLayout>

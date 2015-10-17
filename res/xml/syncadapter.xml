@@ -1,0 +1,7 @@
+<sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="student.mmust"
+    android:allowParallelSyncs="false"
+    android:contentAuthority="com.marvik.apps.mmust.provider.DataProvider"
+    android:isAlwaysSyncable="true"
+    android:supportsUploading="false"
+    android:userVisible="true" />

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">MMUST Student Timetable</string>
+    <string name="dev_info">Name : Victor Mwenda</string>
+    <string name="dev_email"><u>vmwenda.vm@gmail.com</u></string>
+    <string name="dev_phone"><b>0718034449</b></string>
+
+</resources>

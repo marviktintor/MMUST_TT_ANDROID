@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/dashboard_ui_relativeLayout_activity_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <ImageView
+            android:id="@+id/dashboard_ui_imageView_activity_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/person_1" />
+
+        <TextView
+            android:id="@+id/dashboard_ui_textView_activity_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/dashboard_ui_imageView_activity_icon"
+            android:text="Activity"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/dashboard_ui_textView_activity_explanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/dashboard_ui_textView_activity_title"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/dashboard_ui_imageView_activity_icon"
+            android:text="Explanation"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dashboard_ui_textView_items_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9e9e9e"
+        android:padding="10dp"
+        android:text="Title"
+        android:textColor="#fff" />
+
+</LinearLayout>
